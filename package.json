@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "promy",
+  "version": "0.0.0",
+  "description": "Conditional promisify",
+  "main": "index.js",
+  "keywords": [
+    "promisify",
+    "promise",
+    "callback",
+    "function"
+  ],
+  "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
+  "license": "MIT"
+}
