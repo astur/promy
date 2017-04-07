@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Conditional promisify",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/astur/promy.git"
@@ -14,5 +17,8 @@
     "function"
   ],
   "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
   "license": "MIT"
 }
