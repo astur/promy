@@ -2,6 +2,10 @@
 
 Conditional promisify. Transform callback-based function to callback-and-promise-based one.
 
+[![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url]
+
+
 ## Install
 
 ```bash
@@ -10,7 +14,7 @@ npm install promy
 
 ## Usage
 
-It works like easy old good promisify, so if you have some async callback-based function you can do something like this:
+If you have some async function getting calback as second parameter you can do something like this:
 
 ```js
 const promy = require('promy');
@@ -39,3 +43,8 @@ fn(arg)
 ## License
 
 MIT
+
+[npm-url]: https://npmjs.org/package/promy
+[npm-image]: https://badge.fury.io/js/promy.svg
+[travis-url]: https://travis-ci.org/astur/promy
+[travis-image]: https://travis-ci.org/astur/promy.svg?branch=master
