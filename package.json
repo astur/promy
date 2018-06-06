@@ -4,7 +4,7 @@
   "description": "Conditional promisify",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . && mocha"
+    "test": "eslint . && ava"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,9 @@
   ],
   "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
   "devDependencies": {
+    "ava": "^0.25.0",
     "eslint": "^4.19.1",
-    "eslint-config-astur": "0.0.2",
-    "mocha": "^3.2.0"
+    "eslint-config-astur": "0.0.2"
   },
   "license": "MIT"
 }
